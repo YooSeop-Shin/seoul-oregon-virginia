@@ -1,5 +1,7 @@
 # seoul-oregon-virginia
-AWS로 구축한 OTT 서비스 자동화 DevOps 인프라 구축 
+안녕하십니까 해당 저장소는
+
+[팀프로젝트] AWS로 구축한 OTT 서비스 자동화 DevOps 인프라 구축 관련 깃헙 저장소입니다.
 
 해당 저장소에는 업로드 용량 부족으로 인하여 담당했던 파트인 CICD와 EKS 부분만 발췌해서 PPT를 업로드 했습니다.
 
