@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: oregon-frontend
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: oregon-frontend
+  template:
+    metadata:
+      labels:
+        app: oregon-frontend
+    spec:
+      containers:
+        - name: oregon-frontend
+          image: 214813472555.dkr.ecr.us-west-2.amazonaws.com/oregon-frontend:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
